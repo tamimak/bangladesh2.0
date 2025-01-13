@@ -1,0 +1,107 @@
+main{
+  margin: 55PX 0;
+  padding:0 110px;
+}
+main section{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* shared style */
+.btn{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  border-radius: 6px;
+  border: none ;
+  padding: 8px 14px;
+}
+.card-1{
+  background-color:rgba(84, 144, 245, 0.2);
+}
+.card-2{
+  background-color: #C6E4D6;
+}
+.card-3{
+  background-color: #F7EBCF;
+}
+.card-1btn{
+  background-color:#5490F5 ;
+}
+.card-2btn{
+  background-color: #09A15C;
+}
+.card-3btn{
+  background-color:#FFC239 ;
+}
+
+/* main style */
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 45px;
+  padding: 55px 70px 55px 70px;
+  border-radius: 17px;
+  background: rgb(198, 228, 214);
+}
+.cover-tittle{
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 17px;
+  font-weight: 500;
+  gap: 11px; 
+}
+.cover-describtion{
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.cover-btn{
+  gap: 17px;
+  padding: 10px 21px 10px 21px;
+  background: rgb(0, 106, 80);
+}
+.img{
+  width: 330px;
+  height: 280px;
+}
+/*card style  */
+.vision-tittle{
+  font-size: 29px;
+  font-weight: bold;
+  gap:17px;
+  color: rgba(14, 14, 14, 1.00);
+}
+.vision-describtion{
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.70);
+  gap: 17px;
+}
+.cards{
+  display: flex;
+  gap: 17px;  
+}
+.card{
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card-img{
+  width: 44px;
+  height: 44px;
+}
+.carg-tittle{
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.card-descrition{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color:rgba(14, 14, 14, 0.7);
+}
+
